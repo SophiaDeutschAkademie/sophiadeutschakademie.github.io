@@ -1,0 +1,22 @@
+# sophiadeutschakademie.github.io 전체에 적용됩니다.
+# GitHub Pages의 하위 저장소(/SODA-Lehrwerk/ 등)에 있는 robots.txt는 검색엔진이 읽지 않으므로 여기서 정합니다.
+
+User-agent: *
+Allow: /
+
+# 수강생 전용 학습 포탈
+Disallow: /SODA-LERNPORTAL/
+Disallow: /HA-REPORT/
+
+# SODA-Lehrwerk로 합친 옛 저장소(같은 내용이 두 번 검색되지 않게)
+Disallow: /SODA-Lehrwerk-Grammatik/
+Disallow: /SODA-Lehrwerk-Lesetraining/
+Disallow: /SODA-Lehrwerk-Hoertraining/
+Disallow: /SODA-SPRECHTRAINING/
+Disallow: /SODA-VP/
+Disallow: /SODA-NVV/
+Disallow: /SODA-PRP/
+Disallow: /SODA-ZERTIFIKAT/
+
+Sitemap: https://sophiadeutschakademie.github.io/sitemap.xml
+Sitemap: https://sophiadeutschakademie.github.io/SODA-Lehrwerk/sitemap.xml
